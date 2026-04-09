@@ -7,6 +7,9 @@ public class EnemieVision : MonoBehaviour
     public float minTurnTime = 2f;
     public float maxTurnTime = 5f;
 
+    public int damage = 1;
+    public PlayerHealth playerHealth;
+
     public BoxCollider2D damageTrigger; // Assign in Inspector
     public float triggerDuration = 0.5f; // How long collider stays active
 
@@ -58,15 +61,11 @@ public class EnemieVision : MonoBehaviour
         damageTrigger.enabled = false;
     }
 
-    void OnTriggerEnter(Collider other)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (other.CompareTag("Player"))
+        if (collision.gameObject.tag == "Player")
         {
-            PlayerHealth player = other.GetComponent<PlayerHealth>();
-            if (player != null)
-            {
-                player.TakeDamage(damage);
-            }
+            playerHealth.TakeDamage(damage);
         }
     }
 }

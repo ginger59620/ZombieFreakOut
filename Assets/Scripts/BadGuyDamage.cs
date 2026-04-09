@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BadGuyDamage : MonoBehaviour
 {
-    public int damage = 1;
+    /*public int damage = 1;
     public PlayerHealth playerHealth;
 
     // Start is called before the first frame update
@@ -25,5 +25,5 @@ public class BadGuyDamage : MonoBehaviour
         {
             playerHealth.TakeDamage(damage);
         }
-    }
-}
+    }*/
+ }

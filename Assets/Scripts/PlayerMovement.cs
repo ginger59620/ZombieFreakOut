@@ -7,6 +7,8 @@ public class PlayerMovement : MonoBehaviour
     public float speed = 5f;
     private Vector2 movement;
 
+    public bool isHidden = false;
+
     // Update is called once per frame
     void Update()
     {
