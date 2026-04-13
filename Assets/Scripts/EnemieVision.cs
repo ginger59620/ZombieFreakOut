@@ -61,11 +61,25 @@ public class EnemieVision : MonoBehaviour
         damageTrigger.enabled = false;
     }
 
-    private void OnCollisionEnter2D(Collision2D collision)
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         if (collision.gameObject.tag == "Player")
         {
-            playerHealth.TakeDamage(damage);
+            PlayerMovement playerMovement = collision.GetComponent<PlayerMovement>();
+            Crouching crouching = collision.GetComponent<Crouching>();
+
+            if (playerMovement.isHidden == false)
+            {
+                /*
+                if (!Input.GetKey(KeyCode.C))
+                {
+                    playerHealth.TakeDamage(1);
+                }
+                */
+
+                playerHealth.TakeDamage(1);
+
+            }
         }
     }
 }

@@ -43,4 +43,9 @@ public class Crouching : MonoBehaviour
             characrerRenderer.sprite = standing[0];
         }
     }
+
+    public bool isCrouching()
+    {
+        return false;
+    }
 }
