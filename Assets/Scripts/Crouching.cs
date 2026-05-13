@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class Crouching : MonoBehaviour
 {
-    public Sprite[] standing;
+   /* public Sprite[] standing;
     public Sprite[] croutching;
     private CapsuleCollider2D collide2D;
     private Transform skin;
@@ -47,5 +47,5 @@ public class Crouching : MonoBehaviour
     public bool isCrouching()
     {
         return false;
-    }
+    }*/
 }

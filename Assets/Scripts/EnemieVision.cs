@@ -7,14 +7,26 @@ public class EnemieVision : MonoBehaviour
     public float minTurnTime = 2f;
     public float maxTurnTime = 5f;
 
+    
+    public Sprite lookingForward;
+    public Sprite lookingBack;
+    public Sprite warningSprite;
+    private SpriteRenderer characrerRenderer;
+
     public int damage = 1;
     public PlayerHealth playerHealth;
 
     public BoxCollider2D damageTrigger; // Assign in Inspector
-    public float triggerDuration = 0.5f; // How long collider stays active
+    public float triggerDuration = 5f; // How long collider stays active
+
+    //Delay before turning
+    public float warningDuration = 1f;
 
     private float timer;
     private float nextTurnTime;
+
+    private bool isFacingForward = true;
+    private bool isTurning = false;
 
     void Start()
     {
@@ -24,15 +36,24 @@ public class EnemieVision : MonoBehaviour
         {
             damageTrigger.enabled = false; // Start disabled
         }
+
+        characrerRenderer = GetComponent<SpriteRenderer>();
+
+        //Initial Sprite
+        characrerRenderer.sprite = lookingForward;
     }
 
     void Update()
     {
+        if (isTurning)
+            return;
+
         timer += Time.deltaTime;
 
         if (timer >= nextTurnTime)
         {
-            TurnAround();
+            //TurnAround();
+            StartCoroutine(TurnSequence());
             SetNextTurnTime();
         }
     }
@@ -42,10 +63,48 @@ public class EnemieVision : MonoBehaviour
         timer = 0f;
         nextTurnTime = Random.Range(minTurnTime, maxTurnTime);
     }
+    IEnumerator TurnSequence()
+    {
+        isTurning = true;
+
+        // Show warning sprite before turning
+        characrerRenderer.sprite = warningSprite;
+
+        yield return new WaitForSeconds(warningDuration);
+
+        TurnAround();
+
+        isTurning = false;
+    }
 
     void TurnAround()
     {
         transform.Rotate(0, 180, 0);
+
+        //change sprite depending on direction
+        isFacingForward = !isFacingForward;
+
+        if(isFacingForward)
+        {
+            characrerRenderer.sprite = lookingForward;
+
+            // Disable collider when facing forward
+            if (damageTrigger != null)
+            {
+                damageTrigger.enabled = false;
+            }
+        }
+        else
+        {
+            characrerRenderer.sprite = lookingBack;
+
+            // Enable collider ONLY when looking back
+            if (damageTrigger != null)
+            {
+                damageTrigger.enabled = true;
+            }
+        }
+
 
         // Activate trigger when turning
         if (damageTrigger != null)
