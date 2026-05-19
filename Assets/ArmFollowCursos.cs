@@ -1,6 +1,13 @@
+using System;
 using UnityEngine;
+using UnityEngine.Rendering;
 public class ArmFollowCursor : MonoBehaviour
 {
+    [Header("Character")]
+    public Transform character;
+    public SpriteRenderer sprite;
+    public SpriteRenderer armSprite;
+
     [Header("Right Side Angles")]
     public float maxAngle = 10f;
     public float minAngle = -10f;
@@ -11,19 +18,29 @@ public class ArmFollowCursor : MonoBehaviour
     
     void Update()
     {
-        // Apanaha a posição do rato no ecrã
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
 
-        // Calcula a direção 
         Vector3 direction = mousePos - transform.position;
         direction.z = 0f;
 
-        // Encontra o angulo de diferença
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
 
-        // Checkar se o rato está no lado Direito (Right Side)
+        if (mousePos.x < character.position.x)
+        {
+            sprite.flipX = true;
+            armSprite.flipX = true;
 
-        
+            // angle = Mathf.Clamp(angle, minAngle, maxAngle);
+        }
+        else
+        {
+            sprite.flipX = false;
+            armSprite.flipX = false;
+
+            // angle = Mathf.Clamp(angle, leftMinAngle, leftMaxAngle);
+        }
+
+        // Calcula a direção
         transform.rotation = Quaternion.Euler(0f, 0f, angle);
     }
 }

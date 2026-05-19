@@ -7,7 +7,6 @@ public class EnemieVision : MonoBehaviour
     public float minTurnTime = 2f;
     public float maxTurnTime = 5f;
 
-    
     public Sprite lookingForward;
     public Sprite lookingBack;
     public Sprite warningSprite;

@@ -435,10 +435,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3276149e788e54044b04428bf8f42e7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 286967001}
+  sprite: {fileID: 286967003}
+  armSprite: {fileID: 2123227621}
   maxAngle: 55
   minAngle: -55
-  leftMaxAngle: 55
-  leftMinAngle: -55
+  leftMaxAngle: 130
+  leftMinAngle: -130
 --- !u!1 &1898789754
 GameObject:
   m_ObjectHideFlags: 0
