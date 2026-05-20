@@ -5,42 +5,45 @@ public class ArmFollowCursor : MonoBehaviour
 {
     [Header("Character")]
     public Transform character;
-    public SpriteRenderer sprite;
+    public SpriteRenderer bodySprite;
     public SpriteRenderer armSprite;
 
     [Header("Right Side Angles")]
-    public float maxAngle = 10f;
-    public float minAngle = -10f;
+    public float rightMinAngle = -45f;
+    public float rightMaxAngle = 45f;
 
     [Header("Left Side Angles")]
-    public float leftMaxAngle = 10f;
-    public float leftMinAngle = -10f;
-    
+    public float leftMinAngle = -45f;
+    public float leftMaxAngle = 45f;
+
     void Update()
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = 0f;
 
-        Vector3 direction = mousePos - transform.position;
-        direction.z = 0f;
+        // Direction from character (NOT arm transform)
+        Vector2 dir = mousePos - character.position;
 
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        float rawAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-        if (mousePos.x < character.position.x)
+        bool facingLeft = dir.x < 0f;
+
+        // Flip visuals based on mouse position
+        bodySprite.flipX = facingLeft;
+        armSprite.flipX = facingLeft;
+
+        float clampedAngle;
+
+        if (facingLeft)
         {
-            sprite.flipX = true;
-            armSprite.flipX = true;
-
-            // angle = Mathf.Clamp(angle, minAngle, maxAngle);
+            // Convert angle to left-side reference (-180..180 normalization helps stability)
+            clampedAngle = Mathf.Clamp(rawAngle, leftMinAngle, leftMaxAngle);
         }
         else
         {
-            sprite.flipX = false;
-            armSprite.flipX = false;
-
-            // angle = Mathf.Clamp(angle, leftMinAngle, leftMaxAngle);
+            clampedAngle = Mathf.Clamp(rawAngle, rightMinAngle, rightMaxAngle);
         }
 
-        // Calcula a direção
-        transform.rotation = Quaternion.Euler(0f, 0f, angle);
+        transform.rotation = Quaternion.Euler(0f, 0f, clampedAngle);
     }
 }

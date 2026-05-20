@@ -436,12 +436,12 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 286967001}
-  sprite: {fileID: 286967003}
+  bodySprite: {fileID: 286967003}
   armSprite: {fileID: 2123227621}
-  maxAngle: 55
-  minAngle: -55
-  leftMaxAngle: 130
+  rightMinAngle: -45
+  rightMaxAngle: 45
   leftMinAngle: -130
+  leftMaxAngle: 130
 --- !u!1 &1898789754
 GameObject:
   m_ObjectHideFlags: 0
