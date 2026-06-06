@@ -15,10 +15,6 @@ public class ChangeScenes : MonoBehaviour
 
         SceneManager.LoadScene("Options");
     }
-    public void ControlsExplained()
-    {
-        SceneManager.LoadScene("ControlsExplained");
-    }
     public void FistNarrative()
     {
         SceneManager.LoadScene("FistNarrative");
@@ -31,7 +27,11 @@ public class ChangeScenes : MonoBehaviour
     {
         SceneManager.LoadScene("FistMinigame");
     }
-    public void SecondNarrative()
+    /*public void SecondNarrative()
+    {
+        SceneManager.LoadScene("SecondNarrative");
+    }*/
+    private void OnTriggerEnter2D(Collider2D collision)
     {
         SceneManager.LoadScene("SecondNarrative");
     }
@@ -42,5 +42,13 @@ public class ChangeScenes : MonoBehaviour
     public void ThirdNarrative()
     {
         SceneManager.LoadScene("ThirdNarrative");
+    }
+    public void ControlsTut()
+    {
+        SceneManager.LoadScene("ControlsTut");
+    }
+    public void EndOfDemo()
+    {
+        SceneManager.LoadScene("EndOfDemo");
     }
 }

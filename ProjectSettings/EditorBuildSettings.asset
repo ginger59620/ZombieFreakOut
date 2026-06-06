@@ -9,15 +9,27 @@ EditorBuildSettings:
     path: Assets/Scenes/MainMenu.unity
     guid: 9e1265e7663e46543a44fbd8522dc635
   - enabled: 1
+    path: Assets/Scenes/Options.unity
+    guid: d9fd230a4c942fa4c9ca3df46ad6facd
+  - enabled: 1
+    path: Assets/Scenes/ControlsTut.unity
+    guid: 1da04e7ef78865844952b1589349f8e3
+  - enabled: 1
+    path: Assets/Scenes/FistNarrative.unity
+    guid: 610f07e82b8f18b45a3b225b793fe85e
+  - enabled: 1
     path: Assets/Scenes/CharacterSelector.unity
     guid: 2e381dce6e5a4594d93e2746515581db
   - enabled: 1
     path: Assets/Scenes/FistMinigame.unity
     guid: 8c9cfa26abfee488c85f1582747f6a02
   - enabled: 1
+    path: Assets/Scenes/SecondNarrative.unity
+    guid: 697ddf4b654a7c742acc85288a6438a4
+  - enabled: 1
     path: Assets/Scenes/SecondMinigame.unity
     guid: 3c13b739f3640ac42a2b0ba6fe8a56f9
   - enabled: 1
-    path: Assets/Scenes/Options.unity
-    guid: d9fd230a4c942fa4c9ca3df46ad6facd
+    path: Assets/Scenes/EndOfDemo.unity
+    guid: b59941dd0b12af24ab7f5bd390ec8f7a
   m_configObjects: {}
