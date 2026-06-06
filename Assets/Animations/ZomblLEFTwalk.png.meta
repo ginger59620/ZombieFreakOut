@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: e15d8527b8e2e4d4db996d3b4791d83d
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2407.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80e3248c6cc66704e968f270e51ade07
+      internalID: -1405296138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2407.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8046bf2dc71bc924393925176d0f8d1a
+      internalID: -1721631235
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_2
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2407.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07e6e03a4f87b494699a819a83499ca8
+      internalID: -1815167166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_3
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 2407.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a6139d6b4db5cb94c972cd55eb09b6b6
+      internalID: 610400900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1605.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fa7099743292a946b0ded526b1e448a
+      internalID: 802106072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_5
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1605.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9751a0a6e79fca48996257bb872cf50
+      internalID: 314463449
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_6
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1605.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ea36720303a2d04c8f3b93db8a32a97
+      internalID: -342074492
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_7
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1605.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6fbfcc2885c91844be03fdcba875509
+      internalID: -510543372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 803.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c1837be2fd283d4cb2542b9cedb7c11
+      internalID: -122201400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_9
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 803.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 310a643a7853fd4459fb9786ef70cba9
+      internalID: 1245020447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_10
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 803.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a502e0088f279cc4f8562bebe92b2221
+      internalID: 1155299607
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_11
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 803.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e88872a0a9ac204eb49ecea5445bb6e
+      internalID: -1312433240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b94ed3d50212ba4092fd36d529031ea
+      internalID: -651657523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZomblLEFTwalk_13
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 769091d5123f14240827f7319406ccf0
+      internalID: -1240891805
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ZomblLEFTwalk_0: -1405296138
+      ZomblLEFTwalk_1: -1721631235
+      ZomblLEFTwalk_10: 1155299607
+      ZomblLEFTwalk_11: -1312433240
+      ZomblLEFTwalk_12: -651657523
+      ZomblLEFTwalk_13: -1240891805
+      ZomblLEFTwalk_2: -1815167166
+      ZomblLEFTwalk_3: 610400900
+      ZomblLEFTwalk_4: 802106072
+      ZomblLEFTwalk_5: 314463449
+      ZomblLEFTwalk_6: -342074492
+      ZomblLEFTwalk_7: -510543372
+      ZomblLEFTwalk_8: -122201400
+      ZomblLEFTwalk_9: 1245020447
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

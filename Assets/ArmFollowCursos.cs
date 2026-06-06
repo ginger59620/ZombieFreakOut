@@ -6,44 +6,55 @@ public class ArmFollowCursor : MonoBehaviour
     [Header("Character")]
     public Transform character;
     public SpriteRenderer bodySprite;
-    public SpriteRenderer armSprite;
 
-    [Header("Right Side Angles")]
-    public float rightMinAngle = -45f;
-    public float rightMaxAngle = 45f;
+    [Header("Arms")]
+    public Transform rightArm;
+    public Transform leftArm;
 
-    [Header("Left Side Angles")]
-    public float leftMinAngle = -45f;
-    public float leftMaxAngle = 45f;
+    [Header("Sprites")]
+    public SpriteRenderer rightArmSprite;
+    public SpriteRenderer leftArmSprite;
+
+    [Header("Right Side Limits")]
+    public float rightMinAngle = -60f;
+    public float rightMaxAngle = 60f;
+
+    [Header("Left Side Limits")]
+    public float leftMinAngle = 120f;
+    public float leftMaxAngle = 240f;
 
     void Update()
     {
         Vector3 mousePos = Camera.main.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0f;
 
-        // Direction from character (NOT arm transform)
         Vector2 dir = mousePos - character.position;
+        float angle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
 
-        float rawAngle = Mathf.Atan2(dir.y, dir.x) * Mathf.Rad2Deg;
+        bool facingLeft = mousePos.x < character.position.x;
 
-        bool facingLeft = dir.x < 0f;
-
-        // Flip visuals based on mouse position
         bodySprite.flipX = facingLeft;
-        armSprite.flipX = facingLeft;
-
-        float clampedAngle;
 
         if (facingLeft)
         {
-            // Convert angle to left-side reference (-180..180 normalization helps stability)
-            clampedAngle = Mathf.Clamp(rawAngle, leftMinAngle, leftMaxAngle);
+            leftArmSprite.enabled = true;
+            rightArmSprite.enabled = false;
+
+            if (angle < 0)
+                angle += 360f;
+
+            float finalAngle = Mathf.Clamp(angle, leftMinAngle, leftMaxAngle);
+
+            leftArm.rotation = Quaternion.Euler(0f, 0f, finalAngle);
         }
         else
         {
-            clampedAngle = Mathf.Clamp(rawAngle, rightMinAngle, rightMaxAngle);
-        }
+            rightArmSprite.enabled = true;
+            leftArmSprite.enabled = false;
 
-        transform.rotation = Quaternion.Euler(0f, 0f, clampedAngle);
+            float finalAngle = Mathf.Clamp(angle, rightMinAngle, rightMaxAngle);
+
+            rightArm.rotation = Quaternion.Euler(0f, 0f, finalAngle);
+        }
     }
 }

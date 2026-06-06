@@ -1,0 +1,422 @@
+fileFormatVersion: 2
+guid: cabfcc67d07f72747a4cc0ecfedd7333
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2407.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84087d641afbe314db94116e1ead7fc7
+      internalID: 1890543945
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2407.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd642cfd6922e75448bcb4a4fa09839b
+      internalID: -1708360751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_2
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2407.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c0bc0b413cad040ab5b0c7655d7976
+      internalID: -1016202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_3
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 2407.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1762a8f9ac819ac489a8cc79816aa60d
+      internalID: 1466696687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_4
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1605.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 956f3a6f2175e6f4a9e58f9dbbf73290
+      internalID: 1318267974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_5
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1605.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306cd57850312c844b1b838ba420896e
+      internalID: 102843260
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_6
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1605.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73ab2d02e5d13154fbd197127eba3ac2
+      internalID: 1606189489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_7
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1605.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bf980bbf74801c42b7157ddf411731a
+      internalID: 484004858
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_8
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 803.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abdc5684fb3cba14bb7facbd584b58d5
+      internalID: 1866453935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_9
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 803.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 77345a2c6277da345b4bb50757448264
+      internalID: 683221689
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_10
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 803.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d0f0e0f4607a5c444bcaf26d03c00083
+      internalID: 622872283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_11
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 803.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e5d3d751c2ded43ab8bb1a23a31956
+      internalID: 1537408117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b9db9ba2594e8c409c8a15d5ae3cfed
+      internalID: -744797042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: ZombRIGHTwalk_13
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1.5
+        width: 802.5
+        height: 802.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6eda130da0d695d4e99d2e6b2a2e6665
+      internalID: -1776216352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      ZombRIGHTwalk_0: 1890543945
+      ZombRIGHTwalk_1: -1708360751
+      ZombRIGHTwalk_10: 622872283
+      ZombRIGHTwalk_11: 1537408117
+      ZombRIGHTwalk_12: -744797042
+      ZombRIGHTwalk_13: -1776216352
+      ZombRIGHTwalk_2: -1016202
+      ZombRIGHTwalk_3: 1466696687
+      ZombRIGHTwalk_4: 1318267974
+      ZombRIGHTwalk_5: 102843260
+      ZombRIGHTwalk_6: 1606189489
+      ZombRIGHTwalk_7: 484004858
+      ZombRIGHTwalk_8: 1866453935
+      ZombRIGHTwalk_9: 683221689
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

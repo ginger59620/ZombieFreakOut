@@ -1,0 +1,554 @@
+fileFormatVersion: 2
+guid: 50703278aa757fc42a012934a7f4a5bf
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: JayLooking_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2632.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3340e73bdb85d6846a1179c4d917b654
+      internalID: -1653432151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_1
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 2632.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a95b4c2df16985d4aa67f6d82ce4477e
+      internalID: 2102957349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_2
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 2632.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 443a94d6d7f66954682b0fc0b7bebd98
+      internalID: -1523927252
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_3
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 2632.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1418071b82305b7439f1b21b5a39881c
+      internalID: -508162641
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_4
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 2632.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9307af4fde73e3e46a78ad19040b6ffc
+      internalID: -1682234698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1755.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783c20f882026244d80f058217e5499c
+      internalID: -1376388509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_6
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1755.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4953bc97bc4d3694ba1f26a6b043b574
+      internalID: -68998397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_7
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1755.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fbec35baf09ce041950c7bf5c9971a2
+      internalID: -782777870
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_8
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1755.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: eb5c32234402ab1449a5b5ed83f106d2
+      internalID: -79993042
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_9
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 1755.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6681411660cd48c44abf27f33b26fc57
+      internalID: 1840376591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_10
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 878.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51979ce6326c0254aaf920e00804c74e
+      internalID: 10456224
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_11
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 878.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 732772e490e4a334b8b2094781e97552
+      internalID: -1517497851
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_12
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 878.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c1256aeef4a3aa4f9fdfb36243995f8
+      internalID: 297870034
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_13
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 878.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0708faec9779d9498665a2b372a5d99
+      internalID: -922499536
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_14
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 878.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b59c087d9b348b4580a3533d9b9533b
+      internalID: 1532468137
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_15
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e36f9f49079fec4db0bbf4339e078ee
+      internalID: 1869269105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_16
+      rect:
+        serializedVersion: 2
+        x: 802
+        y: 1.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4506189279a0bf1479960ef8d981b908
+      internalID: -1810121027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_17
+      rect:
+        serializedVersion: 2
+        x: 1604
+        y: 1.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f426a363093d2cd4da590ca88a577222
+      internalID: 1475186362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_18
+      rect:
+        serializedVersion: 2
+        x: 2406
+        y: 1.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 46c97bf88e68f0043bb5af346b208b99
+      internalID: -1966903739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: JayLooking_19
+      rect:
+        serializedVersion: 2
+        x: 3208
+        y: 1.5
+        width: 802.4
+        height: 877.5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2989b26230960774aaae870ed51fd076
+      internalID: 137972398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      JayLooking_0: -1653432151
+      JayLooking_1: 2102957349
+      JayLooking_10: 10456224
+      JayLooking_11: -1517497851
+      JayLooking_12: 297870034
+      JayLooking_13: -922499536
+      JayLooking_14: 1532468137
+      JayLooking_15: 1869269105
+      JayLooking_16: -1810121027
+      JayLooking_17: 1475186362
+      JayLooking_18: -1966903739
+      JayLooking_19: 137972398
+      JayLooking_2: -1523927252
+      JayLooking_3: -508162641
+      JayLooking_4: -1682234698
+      JayLooking_5: -1376388509
+      JayLooking_6: -68998397
+      JayLooking_7: -782777870
+      JayLooking_8: -79993042
+      JayLooking_9: 1840376591
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
