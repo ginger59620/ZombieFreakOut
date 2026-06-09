@@ -4,14 +4,16 @@ using UnityEngine;
 
 public class PLayerAttack : MonoBehaviour
 {
-    private GameObject attackArea = default;
+    public GameObject attackArea1;
+    public GameObject attackArea2;
 
     private bool attacking = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        attackArea = transform.GetChild(0).gameObject; 
+        attackArea1 = transform.GetChild(0).gameObject;
+        attackArea2 = transform.GetChild(0).gameObject;
     }
 
     // Update is called once per frame
@@ -23,6 +25,7 @@ public class PLayerAttack : MonoBehaviour
     private void Attack()
     {
         attacking = true;
-        attackArea.SetActive(attacking);
+        attackArea1.SetActive(attacking);
+        attackArea2.SetActive(attacking);
     }
 }
