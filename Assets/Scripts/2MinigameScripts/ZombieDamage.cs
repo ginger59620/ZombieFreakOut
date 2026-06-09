@@ -7,9 +7,9 @@ public class ZombieDamage : MonoBehaviour
     public int damage;
     public PlayerHealth playerHealth;
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnTriggerEnter2D(Collider2D collider)
     {
-      if(collision.gameObject.tag == "Player")
+      if(collider.gameObject.tag == "Player")
         {
             playerHealth.TakeDamage(damage);
         }

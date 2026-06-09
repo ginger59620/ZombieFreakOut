@@ -20,7 +20,7 @@ public class EnemyFollow : MonoBehaviour
         currentPos.z = -0.2f; 
         transform.position = currentPos;
 
-        transform.position = Vector3.MoveTowards(transform.position, target.position, speed * Time.deltaTime);
+        transform.position = Vector3.MoveTowards(transform.position,target.position, speed * Time.deltaTime);
     }
  
 }
