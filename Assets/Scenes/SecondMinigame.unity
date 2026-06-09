@@ -133,12 +133,11 @@ GameObject:
   - component: {fileID: 286967001}
   - component: {fileID: 286967003}
   - component: {fileID: 286967010}
+  - component: {fileID: 286967011}
   - component: {fileID: 286967004}
   - component: {fileID: 286967006}
-  - component: {fileID: 286967005}
   - component: {fileID: 286967007}
-  - component: {fileID: 286967008}
-  - component: {fileID: 286967009}
+  - component: {fileID: 286967005}
   m_Layer: 0
   m_Name: Player
   m_TagString: Player
@@ -286,22 +285,35 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   health: 0
   maxhealth: 3
---- !u!114 &286967008
-MonoBehaviour:
+--- !u!50 &286967010
+Rigidbody2D:
+  serializedVersion: 4
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 286967000}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 2c0800b90b644ca4795ce5c4f81b668a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  attackArea1: {fileID: 2123227618}
-  attackArea2: {fileID: 1130190939}
---- !u!61 &286967009
-BoxCollider2D:
+  m_BodyType: 1
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 2
+--- !u!70 &286967011
+CapsuleCollider2D:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
@@ -332,46 +344,9 @@ BoxCollider2D:
   m_IsTrigger: 1
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.17147422, y: 0}
-  m_SpriteTilingProperty:
-    border: {x: 0, y: 0, z: 0, w: 0}
-    pivot: {x: 0.5, y: 0.5}
-    oldSize: {x: 8.023333, y: 8.027251}
-    newSize: {x: 6.4, y: 6.4}
-    adaptiveTilingThreshold: 0.5
-    drawMode: 0
-    adaptiveTiling: 0
-  m_AutoTiling: 0
-  serializedVersion: 2
-  m_Size: {x: 2.8691363, y: 8.027251}
-  m_EdgeRadius: 0
---- !u!50 &286967010
-Rigidbody2D:
-  serializedVersion: 4
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 286967000}
-  m_BodyType: 1
-  m_Simulated: 1
-  m_UseFullKinematicContacts: 0
-  m_UseAutoMass: 0
-  m_Mass: 1
-  m_LinearDrag: 0
-  m_AngularDrag: 0.05
-  m_GravityScale: 1
-  m_Material: {fileID: 0}
-  m_IncludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_ExcludeLayers:
-    serializedVersion: 2
-    m_Bits: 0
-  m_Interpolate: 0
-  m_SleepingMode: 1
-  m_CollisionDetection: 0
-  m_Constraints: 2
+  m_Offset: {x: -0.10280792, y: 0.075005956}
+  m_Size: {x: 3.0004175, y: 7.745095}
+  m_Direction: 0
 --- !u!1 &563345949
 GameObject:
   m_ObjectHideFlags: 0
@@ -382,7 +357,7 @@ GameObject:
   m_Component:
   - component: {fileID: 563345951}
   - component: {fileID: 563345950}
-  m_Layer: 0
+  m_Layer: 5
   m_Name: Minigame2BG
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -574,7 +549,7 @@ GameObject:
   - component: {fileID: 1130190941}
   - component: {fileID: 1130190940}
   - component: {fileID: 1130190943}
-  - component: {fileID: 1130190942}
+  - component: {fileID: 1130190944}
   m_Layer: 0
   m_Name: LeftArm
   m_TagString: Untagged
@@ -643,26 +618,12 @@ Transform:
   m_GameObject: {fileID: 1130190939}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.07, y: 0.52, z: -0.05}
+  m_LocalPosition: {x: 0.07, y: 0.52, z: -0.2}
   m_LocalScale: {x: 1.257787, y: 1.027, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 2095282814}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1130190942
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1130190939}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be66bcf2cf1b0fe4ea997600da2b8d03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 3
-  health: {fileID: 0}
 --- !u!61 &1130190943
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -708,6 +669,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.6621852, y: 6.4}
   m_EdgeRadius: 0
+--- !u!114 &1130190944
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1130190939}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0800b90b644ca4795ce5c4f81b668a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 0
 --- !u!1 &1259399471
 GameObject:
   m_ObjectHideFlags: 0
@@ -1036,7 +1010,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2058452291
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1111,7 +1085,7 @@ GameObject:
   - component: {fileID: 2123227619}
   - component: {fileID: 2123227621}
   - component: {fileID: 2123227623}
-  - component: {fileID: 2123227622}
+  - component: {fileID: 2123227624}
   m_Layer: 0
   m_Name: RighArm
   m_TagString: Untagged
@@ -1128,7 +1102,7 @@ Transform:
   m_GameObject: {fileID: 2123227618}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.07840474, y: -0.5256283, z: -0.05}
+  m_LocalPosition: {x: -0.07840474, y: -0.5256283, z: -0.2}
   m_LocalScale: {x: 1.0716046, y: 0.8749799, z: 1}
   m_ConstrainProportionsScale: 1
   m_Children: []
@@ -1186,20 +1160,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &2123227622
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2123227618}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: be66bcf2cf1b0fe4ea997600da2b8d03, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 3
-  health: {fileID: 0}
 --- !u!61 &2123227623
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -1245,6 +1205,19 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 3.456307, y: 7.4268217}
   m_EdgeRadius: 0
+--- !u!114 &2123227624
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2123227618}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2c0800b90b644ca4795ce5c4f81b668a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  damage: 1
 --- !u!1001 &1090725543607784728
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1301,6 +1274,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZombRIGHTwalk_0
       objectReference: {fileID: 0}
+    - target: {fileID: 8979655297442413680, guid: 5364ea4e1ce27004887f6f2779688ecf, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -1318,6 +1295,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: ZomblLEFTwalk_test
       objectReference: {fileID: 0}
+    - target: {fileID: 2652902673953178441, guid: 989fcd23c1e4c7c4e966c67150fb68ba, type: 3}
+      propertyPath: playerHealth
+      value: 
+      objectReference: {fileID: 286967007}
     - target: {fileID: 4135598823110379686, guid: 989fcd23c1e4c7c4e966c67150fb68ba, type: 3}
       propertyPath: m_LocalPosition.x
       value: 13.45
@@ -1358,10 +1339,6 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 5808760103996651147, guid: 989fcd23c1e4c7c4e966c67150fb68ba, type: 3}
-      propertyPath: playerHealth
-      value: 
-      objectReference: {fileID: 286967007}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []

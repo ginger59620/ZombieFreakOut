@@ -4,11 +4,13 @@ using UnityEngine;
 
 public class AttackArea : MonoBehaviour
 {
-    public int damage = 3;
-    public Health health;
+  /*  public int damage = 3;
+    public Health health1;
+    public Health health2;
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-            health.TakeDamage(damage);
-    }
+            health1.TakeDamage(damage); 
+        health2.TakeDamage(damage);
+    }*/
 }

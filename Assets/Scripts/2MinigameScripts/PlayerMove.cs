@@ -10,6 +10,7 @@ public class PlayerMove : MonoBehaviour
 
     void Update()
     {
+
         float input = Input.GetAxisRaw("Horizontal");
         movement.x = input * speed * Time.deltaTime;
         transform.Translate(movement);

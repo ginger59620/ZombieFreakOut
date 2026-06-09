@@ -5,7 +5,7 @@ using UnityEngine;
 public class Health : MonoBehaviour
 {
     public int health;
-    public int maxhealth = 3;
+    public int maxhealth = 1;
 
     void Start()
     {
@@ -15,7 +15,7 @@ public class Health : MonoBehaviour
     public void TakeDamage(int amout)
     {
         health -= amout;
-        Debug.Log("Player hit! Health: " + health);
+        Debug.Log("zombie hit! Health: " + health);
 
         if (health <= 0)
         {

@@ -37,8 +37,8 @@ public class ArmFollowCursor : MonoBehaviour
 
         if (facingLeft)
         {
-            leftArmSprite.enabled = true;
-            rightArmSprite.enabled = false;
+            leftArmSprite.gameObject.SetActive(true);
+            rightArmSprite.gameObject.SetActive(false);
 
             if (angle < 0)
                 angle += 360f;
@@ -49,8 +49,8 @@ public class ArmFollowCursor : MonoBehaviour
         }
         else
         {
-            rightArmSprite.enabled = true;
-            leftArmSprite.enabled = false;
+            rightArmSprite.gameObject.SetActive(true);
+            leftArmSprite.gameObject.SetActive(false);
 
             float finalAngle = Mathf.Clamp(angle, rightMinAngle, rightMaxAngle);
 
