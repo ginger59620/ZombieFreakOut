@@ -7,6 +7,8 @@ public class PlayerHealth : MonoBehaviour
     public int health;
     public int maxhealth = 3;
 
+    public Animator animator;
+
     void Start()
     {
         health = maxhealth;
@@ -19,7 +21,12 @@ public class PlayerHealth : MonoBehaviour
 
         if (health <= 0)
         {
+            animator.SetBool("isSpotted", true);
             Destroy(gameObject);
+        }
+        else
+        {
+            animator.SetBool("isSpotted", false);
         }
     }
 
