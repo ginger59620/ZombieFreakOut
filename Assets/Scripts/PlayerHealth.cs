@@ -21,6 +21,7 @@ public class PlayerHealth : MonoBehaviour
     {
         health -= amout; 
         animator.Play("JunoSpotted");
+        animator.Play("JunoHurt");
         gasp.Play();
         Debug.Log("Player hit! Health: " + health);
        

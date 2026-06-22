@@ -43,12 +43,12 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 12
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -95,7 +95,217 @@ TextureImporter:
     forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_0"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 230
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a505739fbb11c404b90a47feef903474
+      internalID: 1006177096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_1"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 230
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b807dd99d693c124d97c0110c40b7743
+      internalID: -2142405257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_2"
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 230
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 155ffa89b71bf124486385e3df410d1e
+      internalID: 1060690655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_3"
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 230
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f3c8069061e2014fa0647d0cb8b4fbd
+      internalID: 1297579004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_4"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 115
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9a91088913de8ec4b8c9018d1199fda7
+      internalID: 1076552002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_5"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 115
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df93b8598888ec048b1682c3cc180928
+      internalID: -234606035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_6"
+      rect:
+        serializedVersion: 2
+        x: 228
+        y: 115
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 283756429e50cb048906cbd88928da3f
+      internalID: 485759643
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_7"
+      rect:
+        serializedVersion: 2
+        x: 342
+        y: 115
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1c6ff9736e9f69147803d570b8e691d0
+      internalID: -946276605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_8"
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e1a87137909e4645a13096f66aba461
+      internalID: 575355004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: "ZombieDeathlEFT\xC7_9"
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 0
+        width: 114.75
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84322ea4603b28a4da6765716640868c
+      internalID: 1098519257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
@@ -106,7 +316,17 @@ TextureImporter:
     edges: []
     weights: []
     secondaryTextures: []
-    nameFileIdTable: {}
+    nameFileIdTable:
+      "ZombieDeathlEFT\xC7_0": 1006177096
+      "ZombieDeathlEFT\xC7_1": -2142405257
+      "ZombieDeathlEFT\xC7_2": 1060690655
+      "ZombieDeathlEFT\xC7_3": 1297579004
+      "ZombieDeathlEFT\xC7_4": 1076552002
+      "ZombieDeathlEFT\xC7_5": -234606035
+      "ZombieDeathlEFT\xC7_6": 485759643
+      "ZombieDeathlEFT\xC7_7": -946276605
+      "ZombieDeathlEFT\xC7_8": 575355004
+      "ZombieDeathlEFT\xC7_9": 1098519257
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
