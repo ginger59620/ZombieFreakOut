@@ -17,10 +17,13 @@ public class JayVision : MonoBehaviour
     public float maxWatchingWait = 5f;
     public float minWatchingWait = 1f;
 
+    public AudioSource rawr;
+
 
     private void Start()
     {
         StartCoroutine(StateLoop());
+        rawr = GetComponent<AudioSource>();
     }
 
     private IEnumerator StateLoop()
@@ -49,7 +52,7 @@ public class JayVision : MonoBehaviour
         Debug.Log("Entering Alert State");
 
         animator.Play(alert.name);
-
+        rawr.Play();
         yield return new WaitForSeconds(alertWait);
     }
 

@@ -8,26 +8,27 @@ public class PlayerHealth : MonoBehaviour
     public int maxhealth = 3;
 
     public Animator animator;
+    public AudioSource gasp;
 
     void Start()
     {
         health = maxhealth;
+        animator = GetComponent<Animator>();
+        gasp = GetComponent<AudioSource>();
     }
 
     public void TakeDamage(int amout)
     {
-        health -= amout;
+        health -= amout; 
+        animator.Play("JunoSpotted");
+        gasp.Play();
         Debug.Log("Player hit! Health: " + health);
-
+       
         if (health <= 0)
         {
-            animator.SetBool("isSpotted", true);
             Destroy(gameObject);
         }
-        else
-        {
-            animator.SetBool("isSpotted", false);
-        }
+        
     }
 
 }
